@@ -41,7 +41,7 @@
   </project>
 
   <project path="art" name="android_art" remote="arrow" />
-  <project path="bionic" name="android_bionic" groups="pdk" remote="arrow" />
+  <project path="bionic" name="android_bionic" groups="pdk" remote="forks" />
   <project path="manifest" name="android_manifest" remote="arrow" />
 
   <!-- bootable repos -->
@@ -74,6 +74,7 @@
   <!-- framework repos -->
   <project path="frameworks/av" name="android_frameworks_av" remote="forks" />
   <project path="frameworks/base" name="android_frameworks_base" remote="forks" />
+  <project path="frameworks/libs/net" name="android_frameworks_libs_net" remote="forks" />
   <project path="frameworks/libs/systemui" name="android_frameworks_libs_systemui" remote="arrow" />
   <project path="frameworks/native" name="android_frameworks_native" remote="forks" />
   <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" remote="arrow" />
@@ -165,14 +166,14 @@
   <project path="packages/apps/SettingsIntelligence" name="android_packages_apps_SettingsIntelligence" remote="arrow" />
   <project path="packages/apps/ThemePicker" name="android_packages_apps_ThemePicker" remote="arrow" />
   <!--project path="packages/apps/TouchGestures" name="android_packages_apps_TouchGestures" remote="arrow" /-->
-  <project path="packages/apps/Updater" name="android_packages_apps_Updater" remote="arrow" />
+  <project path="packages/apps/Updater" name="android_packages_apps_Updater" remote="forks" />
   <project path="packages/apps/SimpleDeviceConfig" name="android_packages_apps_SimpleDeviceConfig" remote="arrow" />
   <project path="packages/apps/WallpaperPicker2" name="android_packages_apps_WallpaperPicker2" remote="arrow" />
   <project path="packages/inputmethods/LatinIME" name="android_packages_inputmethods_LatinIME" remote="arrow" />
   <project path="packages/modules/adb" name="android_packages_modules_adb" remote="arrow" />
   <project path="packages/modules/Bluetooth" name="android_packages_modules_Bluetooth" remote="arrow" />
   <project path="packages/modules/Bluetooth/android/BtHelper" name="android_packages_modules_Bluetooth_android_BtHelper" remote="arrow"/>
-  <project path="packages/modules/Connectivity" name="android_packages_modules_Connectivity" remote="arrow" />
+  <project path="packages/modules/Connectivity" name="android_packages_modules_Connectivity" remote="forks" />
   <project path="packages/modules/Permission" name="android_packages_modules_Permission" remote="arrow" />
   <project path="packages/modules/Wifi" name="android_packages_modules_Wifi" remote="forks" />
   <project path="packages/providers/ContactsProvider" name="android_packages_providers_ContactsProvider" remote="arrow" />
@@ -228,7 +229,7 @@
   <project path="vendor/qcom/opensource/audio" name="android_vendor_qcom_opensource_audio" remote="arrow" />
   <project path="vendor/qcom/opensource/audio-hal/st-hal" name="android_vendor_qcom_opensource_audio-hal_st-hal" remote="arrow" />
   <project path="vendor/qcom/opensource/commonsys/display" name="android_vendor_qcom_opensource_display-commonsys" remote="arrow" />
-  <project path="vendor/qcom/opensource/commonsys-intf/display" name="android_vendor_qcom_opensource_display-commonsys-intf" remote="arrow" />
+  <project path="vendor/qcom/opensource/commonsys-intf/display" name="android_vendor_qcom_opensource_display-commonsys-intf" remote="forks" />
   <project path="vendor/qcom/opensource/data-ipa-cfg-mgr" name="android_vendor_qcom_opensource_data-ipa-cfg-mgr" remote="arrow" />
   <project path="vendor/qcom/opensource/dataservices" name="android_vendor_qcom_opensource_dataservices" remote="arrow" />
   <project path="vendor/qcom/opensource/fm-commonsys" name="android_vendor_qcom_opensource_fm-commonsys" remote="arrow" />
@@ -236,7 +237,7 @@
   <project path="vendor/qcom/opensource/interfaces" name="android_vendor_qcom_opensource_interfaces" remote="arrow" />
   <project path="vendor/qcom/opensource/power" name="android_vendor_qcom_opensource_power" remote="arrow" />
   <project path="vendor/qcom/opensource/thermal-engine" name="android_vendor_qcom_opensource_thermal-engine" remote="arrow" />
-  <project path="vendor/qcom/opensource/vibrator" name="android_vendor_qcom_opensource_vibrator" remote="arrow" />
+  <project path="vendor/qcom/opensource/vibrator" name="android_vendor_qcom_opensource_vibrator" remote="forks" />
   <project path="vendor/qcom/opensource/usb" name="android_vendor_qcom_opensource_usb" remote="arrow" />
   <project path="vendor/qcom/opensource/wfd-commonsys" name="android_vendor_qcom_opensource_wfd-commonsys" remote="arrow" />
   <project path="vendor/support" name="android_vendor_support" remote="arrow" />
